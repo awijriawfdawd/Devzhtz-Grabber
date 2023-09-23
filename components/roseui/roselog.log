@@ -1,0 +1,120 @@
+[connectionpool.py:1048] - 2023-09-23 16:10:42,154 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:10:42,859 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:10:42,862 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:10:42,864 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:10:43,545 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[proactor_events.py:633] - 2023-09-23 16:10:43,557 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:10:45,376 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:10:45,853 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:10:45,855 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:10:45,858 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:10:46,333 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:10:56,320 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:10:56,794 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:10:56,796 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:10:56,798 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:10:57,290 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:24:59,083 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:24:59,642 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:24:59,644 - CRITICAL - Devzhtz Builder Version : 1.9
+[proactor_events.py:633] - 2023-09-23 16:24:59,656 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:25:01,775 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:02,462 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:25:02,466 - CRITICAL - Devzhtz Builder Version : 1.9
+[connectionpool.py:1048] - 2023-09-23 16:25:12,991 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:13,509 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:25:13,512 - CRITICAL - Devzhtz Builder Version : 1.9
+[connectionpool.py:1048] - 2023-09-23 16:25:37,517 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:38,143 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:25:38,146 - CRITICAL - Devzhtz Builder Version  1.9
+[connectionpool.py:1048] - 2023-09-23 16:25:38,148 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:38,885 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[proactor_events.py:633] - 2023-09-23 16:25:38,910 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:25:40,875 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:41,467 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:25:41,469 - CRITICAL - Devzhtz Builder Version  1.9
+[connectionpool.py:1048] - 2023-09-23 16:25:41,472 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:41,989 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:25:52,850 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:53,349 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:25:53,352 - CRITICAL - Devzhtz Builder Version  1.9
+[connectionpool.py:1048] - 2023-09-23 16:25:53,354 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:25:53,858 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:26:11,990 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:26:12,727 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:26:12,729 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:26:12,731 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:26:13,382 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[proactor_events.py:633] - 2023-09-23 16:26:13,414 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:26:15,624 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:26:16,137 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:26:16,139 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:26:16,142 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:26:16,646 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:26:26,460 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:26:26,944 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:26:26,946 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:26:26,949 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:26:27,427 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:27:42,473 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:27:43,008 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:27:43,011 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:27:43,013 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:27:43,500 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[proactor_events.py:633] - 2023-09-23 16:27:43,520 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:27:45,310 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:27:45,825 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:27:45,827 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:27:45,830 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:27:46,344 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:27:53,088 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:27:53,571 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:27:53,574 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:27:53,578 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:27:54,033 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/builder.py HTTP/1.1" 200 8564
+[connectionpool.py:1048] - 2023-09-23 16:33:25,119 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:33:25,816 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:33:25,818 - CRITICAL - Rose UI Builder is using version 1.9
+[proactor_events.py:633] - 2023-09-23 16:33:25,828 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:33:27,610 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:33:28,106 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:33:28,111 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:33:38,669 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:33:39,227 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:33:39,230 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:36:00,682 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:36:01,162 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:36:01,164 - CRITICAL - Rose UI Builder is using version 1.9
+[proactor_events.py:633] - 2023-09-23 16:36:01,174 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:36:02,961 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:36:03,442 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:36:03,445 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:36:13,304 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:36:13,788 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:36:13,790 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:37:53,060 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:37:53,567 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:105] - 2023-09-23 16:37:53,570 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:45:03,658 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:45:04,538 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:100] - 2023-09-23 16:45:04,542 - CRITICAL - Rose UI Builder is using version 1.9
+[proactor_events.py:633] - 2023-09-23 16:45:04,555 - DEBUG - Using proactor: IocpProactor
+[connectionpool.py:1048] - 2023-09-23 16:45:06,806 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:45:07,330 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:100] - 2023-09-23 16:45:07,333 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:45:11,731 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:45:12,234 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:100] - 2023-09-23 16:45:12,237 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:45:20,476 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:45:20,954 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:100] - 2023-09-23 16:45:20,956 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:47:21,610 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:47:22,185 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:100] - 2023-09-23 16:47:22,188 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 16:47:26,947 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 16:47:27,597 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[builder.py:100] - 2023-09-23 16:47:27,599 - CRITICAL - Rose UI Builder is using version 1.9
+[connectionpool.py:1048] - 2023-09-23 17:35:52,004 - DEBUG - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[connectionpool.py:546] - 2023-09-23 17:35:52,849 - DEBUG - https://raw.githubusercontent.com:443 "GET /DamagingRose/Rose-Grabber/main/components/roseui/msg.txt HTTP/1.1" 200 139
+[<string>:100] - 2023-09-23 17:35:52,852 - CRITICAL - Rose UI Builder is using version 1.9
+[proactor_events.py:633] - 2023-09-23 17:35:52,864 - DEBUG - Using proactor: IocpProactor
