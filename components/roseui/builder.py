@@ -28,7 +28,7 @@ pool = ProcessPoolExecutor()
 
 logging.basicConfig(
     level=logging.DEBUG,
-    filename='roselog.log',
+    filename='Devzthz.log',
     filemode='a',
     format='[%(filename)s:%(lineno)d] - %(asctime)s - %(levelname)s - %(message)s'
 )
